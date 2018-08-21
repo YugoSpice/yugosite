@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Compacta.ttf";
-  src: url(./font/compacta.ttf) format("truetype");
+  src: url(../font/compacta.ttf) format("truetype");
 }
 
 @font-face {
   font-family: "Abel.ttf";
-  src: url(./font/abel.ttf) format("truetype");
+  src: url(../font/abel.ttf) format("truetype");
 }
 
 @media (min-width: 992px){
@@ -14,7 +14,7 @@
   }
 
   body{
-    background-image: url(./images/bg.png);
+    background-image: url(../images/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
