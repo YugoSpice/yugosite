@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Compacta.ttf";
-  src: url(../font/compacta.ttf) format("truetype");
+  src: url(../font/Compacta.ttf) format("truetype");
 }
 
 @font-face {
   font-family: "Abel.ttf";
-  src: url(../font/abel.ttf) format("truetype");
+  src: url(../font/Abel.ttf) format("truetype");
 }
 
 @media (min-width: 992px){
