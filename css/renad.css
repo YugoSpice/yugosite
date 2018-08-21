@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Compacta.ttf";
+  src: url(../font/compacta.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Abel.ttf";
+  src: url(../font/abel.ttf) format("truetype");
+}
+
+@media (min-width: 992px){
+  h3{
+    margin-top:100px;
+  }
+
+  body{
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 991px){
+  h3{
+    margin-top:20px;
+  }
+
+  body{
+    background-color: #f29a93;
+  }
+}
+
+body{
+
+  text-align:center;
+  font-family: 'Abel.ttf';
+  font-size:2em;
+  color:black;
+  background-color: #f29a93;
+}
+
+h3{
+  text-align:center;
+  font-family: "Compacta.ttf";
+  font-size:3em;
+}
+
+.logo{
+  margin-top:30px;
+  margin-bottom:30px;
+}
+
+  .emailAdd{
+    border: none;
+    border-bottom: 3px solid;
+    border-color:black;
+    color:white;
+    background:transparent;
+    padding-left: 20px;
+    bottom:-5px;
+  }
+
+  .emailAdd :focus{
+    background: transparent;
+  }
+
+  .emailButt{
+    background:black;
+    color:white;
+    border:none;
+    float:left;
+    padding:5px 20px;
+    margin-bottom:50px;
+    text-align:center;
+  }
